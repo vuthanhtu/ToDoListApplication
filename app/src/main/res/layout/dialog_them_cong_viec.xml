@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1AAAA5">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THÊM CÔNG VIỆC"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/TVThemCongViec"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtThemCongViec"
+        android:layout_below="@id/TVThemCongViec"
+        android:hint="Nhập công việc"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm"
+        android:id="@+id/btnThem"
+        android:layout_below="@id/edtThemCongViec"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hủy"
+        android:layout_below="@id/edtThemCongViec"
+        android:layout_toRightOf="@id/btnThem"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnHuy"/>
+
+</RelativeLayout>
